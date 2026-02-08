@@ -3,11 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title><%= mytitle %></title>
     <style>
         input ,button{
             font-size: 33px;
         }
+       
     </style>
 </head>
 <body>
@@ -21,5 +22,10 @@
         <br>
         <button type="submit">Send to DB</button>
     </form>
+    <h1>
+        your name is <%= arr.at(-1).userNameee %>
+    </h1>
+
+
 </body>
 </html>
